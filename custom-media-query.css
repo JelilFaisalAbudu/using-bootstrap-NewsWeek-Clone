@@ -1,0 +1,31 @@
+@media only screen and (min-width: 481px) {
+  .sign-in,
+  .btn-subscribe {
+    font-size: 18px;
+    font-weight: 700;
+    height: 27px;
+  }
+
+  .sign-in {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-top {
+    height: 95px;
+    padding: 20px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
