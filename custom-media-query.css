@@ -1,4 +1,4 @@
-@media only screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
   .sign-in,
   .btn-subscribe {
     font-size: 18px;
@@ -12,20 +12,39 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: 15px;
     line-height: 20px;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .header-top {
     height: 95px;
     padding: 20px 10px 15px;
   }
+
+  .header-middle {
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .page-header .site-brand svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
 }
