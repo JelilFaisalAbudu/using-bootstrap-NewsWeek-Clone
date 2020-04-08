@@ -53,3 +53,27 @@ body {
 .btn-subscribe {
   color: #f72210;
 }
+
+.page-header .header-middle {
+  background-color: #f72210;
+  position: relative;
+  padding: 15px;
+}
+
+.page-header .site-brand svg {
+  display: block;
+  width: 132px;
+  height: 20px;
+  fill: #fff;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.section-title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,.4);
+}
