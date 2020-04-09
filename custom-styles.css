@@ -45,7 +45,7 @@ body {
 
 .sign-in,
 .btn-subscribe {
-  position: relative;
+  /* position: relative; */
   font: bold 14px/14px "Roboto Condensed", sans-serif;
   padding: 6px 3px 3px 3px;
 }
@@ -53,12 +53,12 @@ body {
 .btn-subscribe {
   color: #f72210;
 }
-
+/* 
 .page-header .header-middle {
   background-color: #f72210;
   position: relative;
   padding: 15px;
-}
+} */
 
 .page-header .site-brand svg {
   display: block;
@@ -75,5 +75,16 @@ body {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.the-debate .c-vs {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
 }
