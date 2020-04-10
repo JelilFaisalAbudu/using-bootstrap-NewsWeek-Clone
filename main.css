@@ -53,6 +53,12 @@
   width: 60px;
 }
 
+/* FOR STORIES AND OPINIONS */
+
+.opinion-item {
+  border-bottom: 1px solid #d9d9d9;
+}
+
 /*
 ******************************
 * media queries              *
