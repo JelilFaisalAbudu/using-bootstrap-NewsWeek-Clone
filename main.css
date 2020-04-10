@@ -10,6 +10,12 @@
   height: 50px;
 }
 
+.cta-sign-in,
+.cta-subscribe {
+  color: lightgray;
+  font-weight: 600;
+}
+
 .header-top {
   background-color: #f72210;
   position: relative;
@@ -20,14 +26,16 @@
   padding: 0;
 }
 
+.navbar-toggler {
+  color: aliceblue;
+}
+
 .page-header .navbar-brand {
   background-color: #f72210;
   padding: 15px;
 }
 
-.page-header .navbar-brand svg {
-  width: 132px;
-  height: 20px;
+.header-middle-navbar-brand svg {
   fill: #fff;
 }
 
@@ -65,14 +73,50 @@
 ******************************
 */
 
+@media only screen and (max-width: 992px) {
+  .page-header .navbar-brand svg {
+    width: 132px;
+    height: 20px;
+    fill: #fff;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-size: 15px;
     line-height: 20px;
   }
 
+  .cta-sign-in,
+  .cta-subscribe {
+    color: lightgray;
+    font-size: 20px;
+  }
+
+  .cta-subscribe {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cta-sign-in {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .dropdown-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .page-header {
     height: 95px;
+  }
+
+  .page-header .header-top {
+    height: 95px;
+    padding: 20px 10px 15px;
   }
 
   .page-header .header-middle-navbar-brand {
@@ -92,17 +136,6 @@
     height: 60px;
   }
 
-  .dropdown-container {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .page-header .header-top {
-    height: 95px;
-    padding: 20px 10px 15px;
-  }
-}
-
-@media onlyscreen and (min-width: 992px) {
   
+
 }
