@@ -83,7 +83,8 @@ body {
 
 /* STORIES SECTION RULES */
 
-.more-stories h5 {
+.more-stories h5,
+.latest-news h5 {
   font-size: 19px;
   font-weight: 700;
   line-height: 20px;
@@ -93,6 +94,10 @@ body {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   color: rgba(12, 11, 11, 0.8);
+}
+
+.card-title {
+  font-size: 24px;
 }
 
 /*
