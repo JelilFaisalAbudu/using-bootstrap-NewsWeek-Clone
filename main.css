@@ -1,13 +1,6 @@
-
-/* .container-fluid {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1310px;
-} */
-
-.page-header {
-  height: 50px;
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
 }
 
 .cta-sign-in,
@@ -26,6 +19,17 @@
   padding: 0;
 }
 
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .navbar-toggler {
   color: aliceblue;
 }
@@ -39,12 +43,11 @@
   fill: #fff;
 }
 
-.dropdown-container {
-  display: flex;
-  justify-content: flex-end;
+.dropdown-design-container {
+  position: relative;
 }
 
-.dropdown-designg {
+.dropdown-design {
   width: 78px;
   height: 13px;
   border-left: 12px solid white;
@@ -52,16 +55,31 @@
   background-color: #f72210;
 }
 
-.form-global-search {
-  
+.navbar-search-container {
+  width: 95p;
 }
 
-.form-global-search .form-input-field {
-  border: none;
-  width: 60px;
+.navbar-search-input {
+  height: 100%;
+  width: 50px;
 }
 
-/* FOR STORIES AND OPINIONS */
+.img-container {
+  position: relative;
+}
+
+.category {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
 
 .opinion-item {
   border-bottom: 1px solid #d9d9d9;
@@ -110,12 +128,8 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .page-header {
-    height: 95px;
-  }
-
   .page-header .header-top {
-    height: 95px;
+    height: 100px;
     padding: 20px 10px 15px;
   }
 
@@ -136,6 +150,7 @@
     height: 60px;
   }
 
-  
-
+  .navbar-nav {
+    width: 95%;
+  }
 }
