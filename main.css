@@ -1,5 +1,8 @@
 body {
+  background-color: #f4f5f6;
+  color: #333;
   font-family: 'Roboto Condensed', sans-serif;
+  min-width: 320px;
   overflow-x: hidden;
 }
 
@@ -15,6 +18,10 @@ ul {
 .cta-subscribe {
   color: lightgray;
   font-weight: 600;
+}
+
+.cta-sign-in {
+  padding-right: 6px;
 }
 
 .header-top {
@@ -66,6 +73,16 @@ ul {
 .navbar-search-input {
   height: 100%;
   width: 50px;
+}
+
+.page-header .navbar {
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+main {
+  background-color: white;
+  padding-top: 20px;
 }
 
 .img-container {
@@ -246,6 +263,27 @@ ul {
 ******************************
 */
 
+@media only screen and (max-width: 320px) {
+  .page-header .navbar-brand svg {
+    width: 132px;
+    height: 20px;
+    fill: #fff;
+  }
+
+  .weather-and-time-widget {
+    display: none;
+  }
+
+  .page-header .navbar-brand {
+    background-color: #f72210;
+    padding-right: 0;
+  }
+
+  .cta-subscribe {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .page-header .navbar-brand svg {
     width: 132px;
@@ -307,6 +345,10 @@ ul {
 }
 
 @media only screen and (min-width: 992px) {
+  .container-fluid {
+    max-width: 90%;
+  }
+
   .page-header .header-top {
     height: 100px;
     padding: 20px 10px 15px;
