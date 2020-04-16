@@ -31,7 +31,7 @@
 
 ![screenshot](images/bootstrap.png)
 
-You can find the original project specification at: [Odin project curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/Newsweek)
+You can find the original project specification at: [Odin project curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 
 ## Built With
