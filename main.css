@@ -59,7 +59,8 @@ ul {
 }
 
 .dropdown-design-container {
-  position: relative;
+  position: absolute;
+  z-index: 4;
 }
 
 .dropdown-design {
@@ -94,6 +95,11 @@ main {
   scroll-padding-right: 90px;
 }
 
+.subscribe-block {
+  height: 100%;
+  background-color: #f4f5f6;
+}
+
 .subscribe-block .mag-thumb {
   width: 170px;
   height: 228px;
@@ -112,6 +118,26 @@ main {
   text-transform: uppercase;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.magazine-bottom .category,
+.magazine-top {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+}
+
+.more-stories h5,
+.latest-news h5 {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.magazine-bottom h5,
+.magazine-section article h5 {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 .section-story .category,
@@ -178,16 +204,14 @@ main {
 
 /* STORIES SECTION RULES */
 
-.more-stories h5,
-.latest-news h5 {
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
 /* END */
 
 /* MAGAZINE RULES */
+
+.magazine-section .img-container img {
+  height: 100%;
+}
+
 .title-n {
   display: block;
   width: 29px;
@@ -223,10 +247,6 @@ main {
 /* END */
 
 /* SUB AND LETTER BLOCK */
-
-.subscribe-block {
-  background-color: #f4f5f6;
-}
 
 .subscribe-and-letter-block .image {
   background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
@@ -298,6 +318,11 @@ main {
     line-height: 20px;
   }
 
+  .magazine-section .card img {
+    height: 70%;
+    width: auto;
+  }
+
   .cta-sign-in,
   .cta-subscribe {
     color: lightgray;
@@ -344,9 +369,19 @@ main {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .news-letter {
+    padding-top: 40px;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .container-fluid {
     max-width: 90%;
+  }
+
+  .page-footer .container-fluid {
+    max-width: 100%;
   }
 
   .page-header .header-top {
@@ -382,6 +417,6 @@ main {
 
   .newsletter-image {
     width: 190px;
-    height: 277px;
+    height: 100%;
   }
 }
