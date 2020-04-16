@@ -20,7 +20,8 @@
 - [📝 License](#%f0%9f%93%9d-license)
 
 
-## Using Bootstrap
+## Project Name 
+- Using Bootstrap
 
 
 
@@ -100,8 +101,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-[Newsweek](https://www.newsweek.com/)
-[Bootstrap](https://getbootstrap.com)
+- [Newsweek](https://www.newsweek.com/)
+- [Bootstrap](https://getbootstrap.com)
 
 
 ## 📝 License
