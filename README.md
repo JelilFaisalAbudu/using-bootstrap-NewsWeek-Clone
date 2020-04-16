@@ -52,7 +52,7 @@ You can find the original project specification at: [Odin project curriculum](ht
 
 ## Getting Started
 
-- Get a local copy up and running follow these simple example steps.
+- Get a local copy up and running on your machine.
 - Modify this file to match your project, remove sections that don't apply.
   For example: delete the testing section if the currect project doesn't require testing.
 
