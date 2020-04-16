@@ -1,8 +1,8 @@
-# Project Name
+# Using Bootstrsp
 
-> One paragraph statement about the project.
+> This project is a replica of the popular news site Newsweek.com using the Bootstrap framework.This project is for educational purpose only It is part of the Microverse curriculum in HTML and CSS Collaboration Project!
 
-![screenshot](./app_screenshot.png)
+![screenshot](images\bootstrap.png)
 
 Additional description about the project and its features.
 
