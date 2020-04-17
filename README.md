@@ -29,7 +29,7 @@
 
 > This project is a replica of the popular news site Newsweek.com. As part of the Microverse HTML and CSS Curriculum, students are supposed to rebuild Newsweek.com website using the Bootstrap framework.This project is for educational purpose only!
 
-![screenshot](images/bootstrap.png)
+![screenshot](images\using-bootstrap.png)
 
 You can find the original project specification at: [Odin project curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
@@ -47,7 +47,7 @@ You can find the original project specification at: [Odin project curriculum](ht
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/JelilFaisalAbudu/using-bootstrap/tree/development)
+[Live Demo Link](https://raw.githack.com/JelilFaisalAbudu/using-bootstrap/development/index.html)
 
 
 ## Getting Started
@@ -83,8 +83,8 @@ You can find the original project specification at: [Odin project curriculum](ht
 👤 Jelil Faisal Abudu
 
 - Github: [@githubhandle](https://github.com/JelilFaisalAbudu)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/jelilabudu)
+- Linkedin: [linkedin](www.linkedin.com/in/jelilfaisalabudu)
 
 
 ## 🤝 Contributing
