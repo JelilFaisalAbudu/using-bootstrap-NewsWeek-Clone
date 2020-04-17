@@ -2,7 +2,6 @@ body {
   background-color: #f4f5f6;
   color: #333;
   font-family: 'Roboto Condensed', sans-serif;
-  min-width: 320px;
   overflow-x: hidden;
 }
 
@@ -12,6 +11,19 @@ a {
 
 ul {
   list-style: none;
+}
+
+h5 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  position: relative;
+}
+
+.page-footer .container-fluid {
+  max-width: 100%;
 }
 
 .cta-sign-in,
@@ -111,8 +123,8 @@ main {
   left: 20%;
 }
 
-.category {
-  display: block;
+.category,
+.magazine-category .type {
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: #f72210;
   text-transform: uppercase;
@@ -120,24 +132,14 @@ main {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.magazine-bottom .category,
-.magazine-top {
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
+.magazine-category .type {
+  background-color: #f72210;
 }
 
 .more-stories h5,
 .latest-news h5 {
-  font-size: 19px;
   font-weight: 700;
   line-height: 20px;
-}
-
-.magazine-bottom h5,
-.magazine-section article h5 {
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
 }
 
 .section-story .category,
@@ -171,8 +173,9 @@ main {
   height: 95px;
 }
 
-.opinion-item {
+.opinion-item article {
   border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 20px;
 }
 
 .the-debate .debator-1 {
@@ -210,6 +213,16 @@ main {
 
 .magazine-section .img-container img {
   height: 100%;
+}
+
+.magazine-section .cover-title {
+  display: block;
+  padding: 10px 10px 10px 12px;
+  color: black;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  background-color: #666;
 }
 
 .title-n {
@@ -283,7 +296,7 @@ main {
 ******************************
 */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 441px) {
   .page-header .navbar-brand svg {
     width: 132px;
     height: 20px;
@@ -296,7 +309,8 @@ main {
 
   .page-header .navbar-brand {
     background-color: #f72210;
-    padding-right: 0;
+    padding: 4px;
+    margin: 0;
   }
 
   .cta-subscribe {
@@ -318,9 +332,9 @@ main {
     line-height: 20px;
   }
 
-  .magazine-section .card img {
-    height: 70%;
-    width: auto;
+  .magazine-img {
+    object-fit: cover;
+    height: 22vw;
   }
 
   .cta-sign-in,
@@ -376,14 +390,6 @@ main {
 }
 
 @media only screen and (min-width: 992px) {
-  .container-fluid {
-    max-width: 90%;
-  }
-
-  .page-footer .container-fluid {
-    max-width: 100%;
-  }
-
   .page-header .header-top {
     height: 100px;
     padding: 20px 10px 15px;
