@@ -36,6 +36,10 @@ h5 {
   padding-right: 6px;
 }
 
+.page-header {
+  top: 0;
+}
+
 .header-top {
   background-color: #f72210;
   position: relative;
